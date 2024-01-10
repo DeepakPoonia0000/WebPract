@@ -1,0 +1,63 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1483px 745px;
+}
+
+.container{
+    background-image: linear-gradient(to left,#596026,#cf869a);
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    border-radius: 10%;
+    margin: 150px 0px 0px 600px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-image: linear-gradient(to left,#925fee,#cf869a) ;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    transition: 2s ease-in-out;
+    background-image: linear-gradient(to right,#925fee,#cf869a);
+    color: black;
+}
+
+p{
+    padding: 30px;
+    text-align: center;
+}
+
+input[type="button"]{
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-image: linear-gradient(to left,#925fee,#cf869a) ;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    display: block;
+    
+}
+
+form{
+    display: inline;
+}
